@@ -1,0 +1,701 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #FEFEFE;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(Proxima\ Nova\ Font.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+
+/*pirveli*/
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.text1{
+    width: 120px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 27.15px;
+    color: #000000;
+    font-family: font1;
+}
+nav{
+    width: 645px;
+    height: 20px;
+    display: flex;
+    gap: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    font-family: font2;
+}
+
+/*meore*/
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.text2{
+    position: absolute;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    font-family: font2;
+    margin-top: -130px;
+    margin-left: 130px;
+
+}
+
+.paragraph1{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    color: #565656;
+    font-family: font2;
+    margin: 0;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+.button1{
+    width: 215px;
+    height: 65px;
+    background: #2639ED;
+    border-radius: 60px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: font2;
+    margin-top: 198px;
+    margin-left: 130px;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.dot{
+    width: 404px;
+    height: 154px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 350px;
+    left: 77px;
+    
+}
+.photo1{
+    width: 600px;
+    margin-left: 110px; 
+}
+.rectangle, .ellipse{ /*ვერ ჩავსვი ესენი, ცისფერი ავიტანე ზემოთ მარა ფოტოს 
+    რო ვუწერდი აბსოლუტს მარჯვნივ მიქონდა ცარიელ ადგილას მთავარი ფოტო, მერე ყვითელი
+     ფიგურაც ვერ დავსვი აბსოლუტს რო ვუწერდი სადღაც მარჯვნივ მიქონდა ეგეც:(( */
+    display: none;
+}
+
+
+
+
+/*mesame*/
+
+.container2{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photos1{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.amazon{
+    margin-top: 22px;
+}
+
+.text3{
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    font-family: font2;
+    margin: 0;
+}
+.texts{
+    margin-left: 110px;
+}
+
+.paragraph2{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #757575;
+    font-family: font2;
+}
+
+
+
+
+
+/*meotxe*/
+
+.container3{
+    width: 100%;
+    margin-top: 200px;
+}
+
+.container4{
+    margin-left: 85px;
+}
+
+
+.rectangle25{
+    position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+
+}
+
+.text4{ /*საიტზე ამ ხაზის ზემოთ მარცხენა კუთხეში ბათონის პატაარა ღილაკი ჩანს ვერ გავიგე რა არის ეგ( */
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    font-family: font2;
+    position: absolute;
+    z-index: 10;
+    margin-top: 150px;
+    margin-left: 17px;
+    text-align: center;
+
+}
+
+.paragraph3{
+    margin-left: 40px;
+    margin-top: 320px;
+    font-family: font2;
+    position: absolute;
+    z-index: 8;
+}
+
+.group70{
+    position: absolute;
+    z-index: 2;
+    margin-top: 500px;
+    margin-left: 33px;
+
+}
+
+
+
+.container5{
+    position: absolute;
+    width: 920px;
+    height: 619px;
+    background-color: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
+    z-index: 2;
+    margin-left: 360px;
+}
+.box1{
+    width: 308px;
+    height: 379px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.box2{
+    width: 308px;
+    height: 379px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-left: 550px;
+    margin-top: -140px;
+}
+
+.box3{
+    width: 308px;
+    height: 379px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-top: 108px;
+    margin-left: 200px;
+}
+
+.box4{
+    width: 308px;
+    height: 379px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-top: -450px;
+    margin-left: 550px;
+    position: absolute;
+}
+
+.minibox1, .minibox2, .minibox3, .minibox4{
+    width: 121px;
+    height: 121px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.minibox1{
+    background: #f1f7ff;
+}
+.minibox2{
+    background: #FFF7E3;
+}
+.minibox3{
+    background: #FFF2F8;
+}
+.minibox4{
+    background: #DEFFEE;
+}
+.photos{
+    padding: 25px;
+}
+
+.text5, .text6, .text7, .text8{
+    text-align: center;
+    margin-top: 190px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-family: font2;
+}
+.paragraph4, .paragraph5, .paragraph6, .paragraph7{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    font-family: font2;
+}
+
+.pink{ /*ამაზეც ვერ გავაკეთე, კონტეინერის შიგნით ვერ შევიტანე, ზ ინდექსის გაწერა ბოქს4 ზეც ვცადე, მინი-ბოქსს4 ზეც
+    და ცისფერ კონტეინერზეც მაგრამ ზემოდან ჩანს ისევ*/
+    display: none;
+    position: absolute;
+    margin-left: 220px;
+    width: 120px;
+    height: 120px;
+    margin-top: -25px;
+}
+
+/*mexute*/
+
+.container6{
+    width: 100%;
+    position: absolute;
+}
+.staff{
+    position: absolute;
+    margin-top: 900px;
+    z-index: 27;
+    margin-left: 50px;
+
+}
+.play{
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: 310px;
+    z-index: 28;
+}
+.button2{
+    cursor: pointer;
+}
+.ellipse86{
+    position: absolute;
+    margin-top: 1220px;
+    margin-left: 550px;
+    z-index: 26;
+}
+
+
+.container7{
+    position: absolute;
+    margin-top: 980px;
+    margin-left: 710px;
+}
+.text9{
+    margin-top: -140px;
+    margin-left: 50px;
+    font-family: font2;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+}
+.paragraph8{
+    font-family: font2;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #565656;
+}
+
+/*meekvse*/
+
+.container8{
+    width: 100%;
+    margin-top: 1700px;
+    text-align: center;
+}
+.text10{
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    font-family: font2;
+
+}
+.paragraph9{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    font-family: font2;
+}
+
+/*meshvide*/
+
+.container9{
+    width: 100%;
+    margin-top: 130px;
+}
+
+.boy{
+    position: absolute;
+    z-index: 27;
+    margin-top: 12px;
+}
+.dot2{
+    position: absolute;
+    margin-left: 270px;
+    z-index: 26;
+}
+.ellipse94{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 30px;
+}
+
+.container10{
+    position: absolute;
+    margin-left: 503px;
+    margin-top: 119px;
+}
+.text11{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-family: font2;
+
+}
+.paragraph10{
+    font-weight: 400;
+    font-size: 16px;
+    color: #565656;
+    font-family: font2;
+}
+
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    background: #2639ED;
+}
+
+.container11{
+    position: absolute;
+    display: flex;
+    gap: 26px;
+    margin-left: 507px;
+    margin-top: 300px;
+}
+
+.container12{
+    position: absolute;
+}
+.photo6{
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 120px;
+}
+.photo7{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 90px;
+}
+.photo8{
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: 30px;
+}
+.photo9{
+    position: absolute;
+    margin-left: 1222px;
+    margin-top: 120px;
+}
+.photo10{
+    position: absolute;
+    margin-left: 1190px;
+    margin-top: 220px;
+}
+.photo11{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 260px;
+}
+.photo12{
+    position: absolute;
+    margin-left: 945px;
+    margin-top: 225px;
+}
+.photo13{
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: -20px;
+}
+.photo14{
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 70px;
+}
+
+/*merve*/
+
+
+.container13{
+    margin-top: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rectangle32{
+    position: absolute;
+    z-index: 3;
+    margin-right: 1100px;
+    margin-top: 150px;
+}
+.container14{
+    position: absolute;
+    width: 1197px;
+    height: 292px;
+    background: #F4F9FF;
+    border-radius: 75px;
+    z-index: 4;
+}
+.text12{
+    position: absolute;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: font2;
+    color: #000000;
+    margin-top: 98px;
+    margin-left: 92px;
+}
+.paragraph11{
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    font-family: font2;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 92px;
+}
+
+form{
+    position: absolute;
+    height: 80px;
+    width: 479px;
+    border-radius: 60px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    outline: none;
+    margin-left: 580px;
+    z-index: 7;
+    margin-top: 106px;
+}
+input::placeholder{
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    color: #959595;
+    font-family: font2;
+}
+input{
+    border: none;
+    outline: none;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.button4{
+    width: 188px;
+    height: 60px;
+    background: #2639ED;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: font2;
+    margin-top: -37px;
+    margin-left: 280px;
+
+
+}
+.container15{
+    position: absolute;
+    width: 543px;
+    height: 292px;
+    background: #2639ED;
+    border-radius: 70px;
+    margin-left: 650px;
+    z-index: 6;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 100px;
+}
+.group73{
+    position: absolute;
+    margin-left: 1062px;
+    margin-top: -55px;
+}
+
+/*mecxre*/
+
+footer{
+    margin-top: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line{
+    margin-top: 1100px;
+    position: absolute;
+    width: 1200px;
+    border: 1px solid #E4E4E4;
+    margin-left: 120px;
+}
+.container17, .container18, .container19, .container20{
+   line-height: 30px;
+}
+.text13{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: font;
+    color: #000000;
+}
+.text14{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    font-family: font2;
+}
+.paragraph12{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: font2;
+    color: #565656;
+}
+
+.paragraph13{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-family: font2;
+}
+
+.social{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.line2{
+    margin-top: 40px;
+    position: absolute;
+    width: 1200px;
+    border: 1px solid #E4E4E4;
+    margin-left: 120px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A4A4A4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
